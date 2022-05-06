@@ -1,0 +1,25 @@
+block variables 
+doctype html 
+html 
+    head 
+        meta(charset="utf-8")
+        meta(name="viewport", content="width=device-width")
+        title #{title} | AllPets
+        link(rel="stylesheet", type="text/css", href="/css/styles.css")
+    body 
+        header#header 
+            div.header-content 
+                h2#site-name 
+                    a(href="/") AllPets 
+                nav#topnnav
+                    ul#navbar 
+                        li 
+                            a(href="/") Home 
+                        li 
+                            a(href="/product") All Product 
+                        li 
+                            a(href="/order") Order 
+                        li 
+                            a(href="/about") About
+                button.contact
+                    a(href="#") Contact 
